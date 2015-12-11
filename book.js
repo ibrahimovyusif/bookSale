@@ -7,13 +7,13 @@ var Book = {
 		this.bookPrice = 8;
 		this.selectedBookCount = Object.create(Amount).init(selectedBookCount);
 
-		selectedBooks = [];
+		this.selectedBooks = [];
 
 
 		return this;
 	},
 
-	selectBook: function(arrayHere) {
+	selectedBooks: function(arrayHere) {
 
 	},
 
